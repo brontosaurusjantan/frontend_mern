@@ -39,8 +39,8 @@ const updateUser = async(e) => {
 
   return (
     <div className="columns">
-        <div className="coulmn is-half">
-            <form onSubmit={updateUser}>
+        <div className="coulmn is-half is-offset-one-quarter">
+            <form onSubmit={updateUser} className="box">
             <div className="field">
                 <label className="label">Name</label>
                 <div className="control">
