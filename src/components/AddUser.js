@@ -25,9 +25,10 @@ const saveUser = async(e) => {
     }
 
   return (
+
     <div className="columns is-half">
         <div className="coulmn is-half">
-            <form onSubmit={saveUser} >
+            <form onSubmit={saveUser} className="box" >
                 <div className="field">
                     <label className="label">Name</label>
                     <div className="control">

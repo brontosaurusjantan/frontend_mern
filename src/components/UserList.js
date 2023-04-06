@@ -25,15 +25,15 @@ const UserList = () => {
 
   return (
     <div className="columns">
-        <div className="column is-half">
+        <div className="column is-half is-offset-one-quarter">
             <Link to="add" className="button is-success"> Add New </Link>
-            <table className="table is-stripped is-fullwidth mt-5">
+            <table className="table is-stripped is-fullwidth mt-5 is-bordered">
                 <thead>
                     <tr>
-                        <th>no</th>
-                        <th>name</th>
-                        <th>email</th>
-                        <th>gender</th>
+                        <th>No</th>
+                        <th>Nama Tamu</th>
+                        <th>Email</th>
+                        <th>Jenis Kelamin</th>
                         <th>action</th>
                     </tr>
                 </thead>
